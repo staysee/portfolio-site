@@ -2,13 +2,15 @@
 <html ng-app="Portfolio">
 <head>
   <title>Stacey Sugiono | Full Stack Web Developer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='https://fonts.googleapis.com/css?family=Cantata+One' rel='stylesheet' type='text/css'>
-  <link href="css/style.css" rel="stylesheet" >
-
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Google font -->
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,900italic,300,700' rel='stylesheet' type='text/css'>
+  <link href="css/style.css" rel="stylesheet" >
 
   <!-- Angular JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
@@ -23,45 +25,47 @@
 </head>
 <body>
 
-<section id="home">
+<!-- HOME PAGE -->
+<div class="section" id="home">
+<div class="home-container"
   <div id="myName">
     <h1>Stacey Sugiono</h1>
     <p>Full Stack Web Developer</p>
 
     <div id="construction">
-      <h2> Under Construction. Coming Soon!</h2>
+      <h2> Site Under Construction. Check Back Soon!</h2>
     </div>
   </div>
-
-
 
   <nav>
     <ul>
       <li><a href="#home" class="smoothScroll">Home</a></li>
       <li><a href="#work" class="smoothScroll">Work</a></li>
-      <li><a href ="#about" class="smoothScroll">About</a></li>
       <li><a href="#contact" class="smoothScroll">Contact</a></li>
     </ul>
   </nav>
-</section>
+</div>
+</div>
 
-<section id="work">
+<!-- WORK -->
+<div class="section" id="work">
   <a name="work"></a>
-  <h2>WORK</h2>
 
-  <div class="work-container">
-    <div id="nanopost" class="projects">
+  <div class="container" class="work-container">
+  <div class="row">
+    <div id="nanopost" class="projects" class="col-sm-6">
       <h3>NanoPost</h3>
       <img class="project-image" src="css/images/NanoPost.png">
     </div>
 
-    <div id="afterhours" class="projects">
+    <div id="afterhours" class="projects" class="col-sm-6">
       <h3>AfterHours</h3>
       <img class="project-image" src="css/images/AfterHours2.png">
     </div>
-</div>
-  <div class="work-container">
-    <div id="flowfinder" class="projects">
+  </div>
+
+  <div class="row">
+    <div id="flowfinder" class="projects" class="col-sm-6">
       <h3>Flow Finder</h3>
       <img class="project-image" src="css/images/FlowFinder1.png">
       <p>Flow Finder was built to create a space where flow artists can search for workshops, classes, jams, or festivals happening in their area.</p>
@@ -78,27 +82,26 @@
     </div>
 
   </div>
+  </div>
 
-</section>
-
-<section id="about">
-  <a name="about"></a>
-  <h2>ABOUT ME</h2>
+</div>
 
 
-  <img src="css/images/headshot.jpg" id="headshot">
-  <
-  General Assembly. Web stuff. Some more stuff about me. Blah Blah
-</section>
-
-<section id="contact">
+<!-- CONTACT -->
+<div class="section" id="contact">
   <a name="contact"></a>
   <h2>CONTACT</h2>
+  <img src="css/images/headshot.jpg" id="headshot">
+  General Assembly. Web stuff. Some more stuff about me. Blah Blah
+
   <p><a href="mailto:staceysugiono@gmail.com">Send me an email</a></p>
   <p>LinkedIn: www.linkedin.com/in/staceysugiono</p>
   <p>GitHub: www.github.com/staysee</p>
+</div>
+ -->
 
-</section>
 
+<!-- Bootstrap jQuery -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
