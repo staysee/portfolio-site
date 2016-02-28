@@ -1,0 +1,175 @@
+/* Adding Fonts */
+@font-face {
+  font-family: 'Bitfont';
+  src: url('fonts/Bitfont/Bitfont.eot');  /* IE9 Compat Mode */
+  src: url('fonts/Bitfont/Bitfont.woff') format('woff'),
+       url('fonts/Bitfont/Bitfont.ttf') format('truetype'),
+       url('fonts/Bitfont/Bitfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code';
+  src: url('fonts/Code/Code.eot');
+  src: url('fonts/Code/Code.woff') format('woff'),
+       url('fonts/Code/Code.ttf') format('truetype'),
+       url('fonts/Code/Code.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Easy Skyline';
+  src: url('fonts/Easy Skyline/Easy Skyline.eot');
+  src: url('fonts/Easy Skyline/Easy Skyline.woff') format('woff'),
+       url('fonts/Easy Skyline/Easy Skyline.ttf') format('truetype'),
+       url('fonts/Easy Skyline/Easy Skyline.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GuldScript';
+  src: url('fonts/Guldscript/GuldScript.eot');
+  src: url('fonts/Guldscript/GuldScript.woff') format('woff'),
+       url('fonts/Guldscript/GuldScript.ttf') format('truetype'),
+       url('fonts/Guldscript/GuldScript.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PotionFushia';
+  src: url('fonts/PotionFushia/PotionFushia.eot');
+  src: url('fonts/PotionFushia/PotionFushia.woff') format('woff'),
+       url('fonts/PotionFushia/PotionFushia.ttf') format('truetype'),
+       url('fonts/PotionFushia/PotionFushia.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a { text-decoration: none; }
+
+body {
+  text-align: center;
+  font-family: 'PotionFushia';
+}
+
+/* This class added on scroll */
+.fixed {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  z-index: 1;
+}
+
+.fixed a{
+  color: #ff918f;
+}
+
+/* NAVIGATION SETTINGS */
+nav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background: rgba(255,255,255, 0.5);
+}
+
+nav li {
+  display: inline-block;
+  padding: 24px 10px;
+}
+
+nav a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+section {
+  height: 100vh;
+}
+
+
+/* WELCOME PAGE STYLES */
+#home {
+  background-image: url('images/maple_pebble.jpg');
+  color: white;
+}
+
+#myName {
+  padding: 200px;
+  color: #ff918f;
+}
+
+#myName h1{
+  font-size: 90px;
+  font-weight: bolder;
+}
+
+#myName p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* PROJECT PAGE STYLES*/
+#work{
+  background-image: url('images/white_gray_bg.jpg');
+  background-size: cover;
+}
+
+.work-container{
+  display: flex;
+}
+
+.projects{
+  width: 50%;
+}
+.project-image {
+  width: 45%;
+  height: 150px;
+}
+
+#nanopost {
+}
+
+#afterhours{
+
+}
+
+#flowfinder{
+
+}
+
+#battleship{
+
+}
+
+/* ABOUT ME STYLES */
+#about{
+  background-image: url('images/white_gray_bg.jpg');
+}
+#headshot{
+  width: 20%;
+  border-radius: 20px;
+}
+
+/* CONTACT STYLES */
+#contact{
+  background-image: url('images/maple_pebble.jpg');
+  background-size: cover;
+  color: white;
+}
+
+
+
+
+@-ms-viewport {
+  width: device-width;
+}
