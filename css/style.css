@@ -7,24 +7,25 @@ a { text-decoration: none; }
 
 body {
   text-align: center;
-  font-family: 'Merriweather', serif;
+  color: white;
 }
 
-.section {
+/*.section {
   height: 100vh;
-}
+}*/
 
 
 /* This class added on scroll */
 .fixed {
   position: fixed;
+  background-color: rgba(255,255,255, 0.5);
   top: 0;
   height: 70px;
   z-index: 1;
 }
 
 .fixed a{
-  color: #3A6FFF;
+  color: #5F5EB3;
 }
 
 
@@ -47,23 +48,29 @@ nav a {
   text-transform: uppercase;
   font-size: 25px;
   font-weight: bolder;
+  font-family: 'Special Elite';
 }
 
 
 /* WELCOME PAGE STYLES */
 #home {
-  background-color: black;
+  background-image: url('images/aurora.jpg');
+  background-size: cover;
+  height: 100vh;
 }
 
 #myName h1{
   font-size: 5em;
   font-weight: bolder;
-  color: #3A6FFF;
+  padding-top: 100px;
+  color: #B073EC;
+  font-family: 'Special Elite', cursive;
 }
 
 #myName p {
   font-size: 2.5em;
   font-weight: bold;
+  font-family: 'Special Elite', cursive;
   color: #7FAEFF;
 }
 
@@ -73,56 +80,64 @@ nav a {
 }
 
 .home-container{
-  padding-top: 20%;
+
 }
 
 /* WORK STYLES*/
 #work{
-  background-image: url('images/white_gray_bg.jpg');
+  background-color: #3F4372;
   background-size: cover;
 }
 
+.work-container{
+  padding: 100px 0px;
+  width: 90%;
+  margin: 0 auto !important;
+}
 
-/*.projects{
-  width: 50%;
-}*/
-
+.projects{
+  padding: 10px;
+}
 .project-image {
-  width: 45%;
-  height: 150px;
+  width: 320px;
+  height: 200px;
 }
 
-#nanopost {
-  padding: 80px;
-}
 
-#afterhours{
-  padding: 80px;
-
-}
-
-#flowfinder{
-
-}
-
-#battleship{
-
-}
 
 
 /* CONTACT STYLES */
-#headshot{
-  width: 20%;
-  border-radius: 20px;
-}
+
 
 #contact{
   background-color: black;
   background-size: cover;
   color: white;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
-@media (min-width: 600px){}
+#headshot{
+  width: 180px;
+  border-radius: 20px;
+}
+
+.bio h3{
+  padding: 20px;
+}
+
+
+.contact-links a {
+  color: white;
+  padding: 10px;
+}
+
+.contact-links a:hover{
+  color: #7775E2;
+}
+
+
+
 /*@-ms-viewport {
   width: device-width;
 }*/

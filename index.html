@@ -2,14 +2,17 @@
 <html ng-app="Portfolio">
 <head>
   <title>Stacey Sugiono | Full Stack Web Developer</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link href='https://fonts.googleapis.com/css?family=Cantata+One' rel='stylesheet' type='text/css'>
   <!-- Bootstrap -->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Google font -->
-  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,900italic,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Handlee|Special+Elite' rel='stylesheet' type='text/css'>
   <link href="css/style.css" rel="stylesheet" >
 
   <!-- Angular JS -->
@@ -27,7 +30,8 @@
 
 <!-- HOME PAGE -->
 <div class="section" id="home">
-<div class="home-container"
+<div class="home-container">
+
   <div id="myName">
     <h1>Stacey Sugiono</h1>
     <p>Full Stack Web Developer</p>
@@ -51,33 +55,40 @@
 <div class="section" id="work">
   <a name="work"></a>
 
-  <div class="container" class="work-container">
+  <div class="container work-container">
+
   <div class="row">
-    <div id="nanopost" class="projects" class="col-sm-6">
+    <div id="nanopost" class="projects col-md-6">
       <h3>NanoPost</h3>
       <img class="project-image" src="css/images/NanoPost.png">
+      <p>NanoPost is a place where developers/designers can help one another in their professional development and where employers can find their next talented hire!</p>
+      <p>Built with: MongoDB, Express, Angular, Node</p>
     </div>
 
-    <div id="afterhours" class="projects" class="col-sm-6">
+    <div id="afterhours" class="projects col-md-6">
       <h3>AfterHours</h3>
-      <img class="project-image" src="css/images/AfterHours2.png">
+      <img class="project-image" src="css/images/afterhours.png">
+      <p>Find where the nearest happy hours are and how much time you have left!</p>
+      <p>After Hours is a happy hour tracking application based on current time and location.</p>
+      <p>Built with: Mongo, Express, Node
     </div>
   </div>
 
   <div class="row">
-    <div id="flowfinder" class="projects" class="col-sm-6">
+    <div id="flowfinder" class="projects col-md-6">
       <h3>Flow Finder</h3>
-      <img class="project-image" src="css/images/FlowFinder1.png">
+      <img class="project-image" src="css/images/flowfinder.png">
       <p>Flow Finder was built to create a space where flow artists can search for workshops, classes, jams, or festivals happening in their area.</p>
-      <p></p>
+      <p>Built with: Ruby on Rails</p>
     </div>
 
-    <div id="battleship" class="projects">
+    <div id="battleship" class="projects col-md-6">
       <h3>Battleship</h3>
-      <img class="project-image" src="css/images/Battleship2.png">
+      <img class="project-image" src="css/images/battleship.png">
       <div>
         <p>Sink all of your enemy ships by guessing all 5 ship locations before your opponent sinks yours!</p>
-        <p>My first ever project was a 2-player game using HTML, CSS, and Javascript</p>
+        <p>My first ever project.</p>
+        <p>Built with: HTML, CSS, JavaScript</p>
       </div>
     </div>
 
@@ -90,18 +101,31 @@
 <!-- CONTACT -->
 <div class="section" id="contact">
   <a name="contact"></a>
-  <h2>CONTACT</h2>
-  <img src="css/images/headshot.jpg" id="headshot">
-  General Assembly. Web stuff. Some more stuff about me. Blah Blah
 
-  <p><a href="mailto:staceysugiono@gmail.com">Send me an email</a></p>
-  <p>LinkedIn: www.linkedin.com/in/staceysugiono</p>
-  <p>GitHub: www.github.com/staysee</p>
+  <div class="row">
+    <div class="col-md-4">
+    <img src="css/images/headshot.jpg" id="headshot">
+    </div>
+
+    <div class="bio col-md-4">
+      <h3>A little about me...</h3>
+      <p>Hi! My name is Stacey Sugiono</p>
+      <p>I am a fullstack developer based in Los Angeles, CA</p>
+      <p>I have a Bachelors degree in Cognitive Science from UC San Diego. Prior to web development, I was studying Speech-Language Pathology</p>
+    </div>
+  </div>
+
+  <div class="contact-links">
+    <a href="mailto:staceysugiono@gmail.com"><i class="fa fa-envelope fa-3x"></i></a>
+    <a href="https://www.linkedin.com/in/staceysugiono"><i class="fa fa-linkedin-square fa-3x"></i></a>
+    <a href="https://github.com/staysee"><i class="fa fa-github-square fa-3x"></i></a>
+    <a href="#"><i class="fa fa-file-word-o fa-3x"></i></a>
+  </div>
 </div>
- -->
 
 
-<!-- Bootstrap jQuery -->
+
+<!-- Bootstrap jQuery-->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
