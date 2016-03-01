@@ -154,6 +154,11 @@ nav a:active{
   height: 200px;
 }
 
+.project-image:hover{
+  width: 480px;
+  height: 300px;
+}
+
 .project-link{
   padding: 10px;
   font-family: 'Special Elite','Helvetica' !important;
