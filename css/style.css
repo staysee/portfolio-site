@@ -1,13 +1,14 @@
-* {
+*{
   margin: 0 !important;
   padding: 0;
 }
 
-a { text-decoration: none; }
+a{ text-decoration: none; }
 
-body {
+body{
   text-align: center;
   color: white;
+  font-family: 'Special Elite';
 }
 
 /*.section {
@@ -16,21 +17,21 @@ body {
 
 
 /* This class added on scroll */
-.fixed {
+.fixed{
   position: fixed;
-  background-color: rgba(255,255,255, 0.5);
+  background-color: #353535;
   top: 0;
   height: 70px;
   z-index: 1;
 }
 
 .fixed a{
-  color: #5F5EB3;
+  color: #8267CB;
 }
 
 
 /* NAVIGATION SETTINGS */
-nav {
+nav{
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -38,25 +39,29 @@ nav {
   background: rgba(255,255,255, 0.5);
 }
 
-nav li {
+nav li{
   display: inline-block;
   padding: 24px 10px;
 }
 
-nav a {
+nav a{
   color: white;
   text-transform: uppercase;
   font-size: 25px;
   font-weight: bolder;
-  font-family: 'Special Elite';
+  font-family: 'Special Elite', cursive;
 }
 
 
-/* WELCOME PAGE STYLES */
-#home {
+/* HOME STYLES */
+#home{
   background-image: url('images/aurora.jpg');
   background-size: cover;
   height: 100vh;
+}
+
+.home-container{
+
 }
 
 #myName h1{
@@ -67,7 +72,7 @@ nav a {
   font-family: 'Special Elite', cursive;
 }
 
-#myName p {
+#myName p{
   font-size: 2.5em;
   font-weight: bold;
   font-family: 'Special Elite', cursive;
@@ -79,9 +84,31 @@ nav a {
   color: white;
 }
 
-.home-container{
+
+/* BIO STYLES */
+#bio{
+  background-color: black;
+  padding: 100px 0px;
+}
+
+.bio-container{
 
 }
+
+#headshot{
+  width: 180px;
+  border-radius: 20px;
+  border: 4px solid white;
+}
+
+.bio h3{
+  padding: 20px;
+}
+
+#github-widget{
+  width: 300px;
+}
+
 
 /* WORK STYLES*/
 #work{
@@ -98,11 +125,10 @@ nav a {
 .projects{
   padding: 10px;
 }
-.project-image {
-  width: 320px;
-  height: 200px;
-}
 
+.projects h3{
+  padding: 10px;
+}
 .projects a{
   color: white;
   text-transform: uppercase;
@@ -112,31 +138,24 @@ nav a {
   color: #7775E2;
 }
 
+.project-image{
+  width: 320px;
+  height: 200px;
+}
 
 
 
 /* CONTACT STYLES */
 
-
 #contact{
   background-color: black;
   background-size: cover;
   color: white;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
-#headshot{
-  width: 180px;
-  border-radius: 20px;
-}
-
-.bio h3{
-  padding: 20px;
-}
-
-
-.contact-links a {
+.contact-links a{
   color: white;
   padding: 10px;
 }
