@@ -35,13 +35,16 @@ nav a{
   font-weight: bolder;
 }
 
-nav a:hover{
-  color: #7FAEFF;
+nav a:hover,
+nav a:active{
+  color: #2dbccb;
 }
 
-nav a:active{
+/*nav a:active{
   color: #7FAEFF;
-}
+}*/
+
+.active { color: #2dbccb; }
 
 /* NAV ON SCROLL */
 .fixed{
