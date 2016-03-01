@@ -3,31 +3,15 @@
   padding: 0;
 }
 
-a{ text-decoration: none; }
+a{ text-decoration: none !important; }
+
 
 body{
   text-align: center;
   color: white;
-  font-family: 'Special Elite';
+  font-family: 'Special Elite','Helvetica';
 }
 
-/*.section {
-  height: 100vh;
-}*/
-
-
-/* This class added on scroll */
-.fixed{
-  position: fixed;
-  background-color: #353535;
-  top: 0;
-  height: 70px;
-  z-index: 1;
-}
-
-.fixed a{
-  color: #8267CB;
-}
 
 
 /* NAVIGATION SETTINGS */
@@ -49,8 +33,33 @@ nav a{
   text-transform: uppercase;
   font-size: 25px;
   font-weight: bolder;
-  font-family: 'Special Elite', cursive;
 }
+
+nav a:hover{
+  color: #7FAEFF;
+}
+
+nav a:active{
+  color: #7FAEFF;
+}
+
+/* NAV ON SCROLL */
+.fixed{
+  position: fixed;
+  background-color: #353535;
+  top: 0;
+  height: 70px;
+  z-index: 1;
+}
+
+.fixed a{
+  color: #8267CB;
+}
+
+
+
+
+
 
 
 /* HOME STYLES */
@@ -69,13 +78,11 @@ nav a{
   font-weight: bolder;
   padding-top: 200px;
   color: #B073EC;
-  font-family: 'Special Elite', cursive;
 }
 
 #myName p{
   font-size: 2.5em;
   font-weight: bold;
-  font-family: 'Special Elite', cursive;
   color: #7FAEFF;
 }
 
