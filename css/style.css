@@ -93,10 +93,6 @@ nav a:active{
   padding: 100px 0px;
 }
 
-.bio-container{
-
-}
-
 
 #headshot{
   width: 180px;
@@ -108,10 +104,13 @@ nav a:active{
   text-align: right;
 }*/
 
-
+.bio h3{
+  color: #784498;
+}
 .bio p{
   font-family: 'Slabo 27px', serif;
-  text-align: justify-all;
+  text-align: justify;
+  font-size: 16px;
 }
 
 
@@ -137,11 +136,13 @@ nav a:active{
 .projects a{
   color: white;
   text-transform: uppercase;
+
 }
 
 .projects p{
   font-family: 'Slabo 27px', serif;
-  text-align: justify-all;
+  text-align: justify;
+  font-size: 16px;
 }
 
 .projects a:hover{
@@ -156,6 +157,7 @@ nav a:active{
 .project-link{
   padding: 10px;
   font-family: 'Special Elite','Helvetica' !important;
+  text-align: center !important;
 }
 
 
