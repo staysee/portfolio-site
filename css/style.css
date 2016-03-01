@@ -141,6 +141,7 @@ nav a:active{
 
 .projects p{
   font-family: 'Slabo 27px', serif;
+  text-align: justify-all;
 }
 
 .projects a:hover{
