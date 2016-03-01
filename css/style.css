@@ -1,7 +1,7 @@
-*{
-  margin: 0 !important;
+/**{
+  margin: 0;
   padding: 0;
-}
+}*/
 
 a{ text-decoration: none !important; }
 
@@ -97,22 +97,21 @@ nav a:active{
 
 }
 
+
 #headshot{
   width: 180px;
   border-radius: 20px;
   border: 4px solid white;
 }
 
-.headshot{
+/*.headshot{
   text-align: right;
-}
+}*/
 
-.bio h3{
-  padding: 20px;
-}
 
 .bio p{
   font-family: 'Slabo 27px', serif;
+  text-align: justify-all;
 }
 
 
