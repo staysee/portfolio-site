@@ -1,7 +1,7 @@
-/**{
+*{
   margin: 0;
   padding: 0;
-}*/
+}
 
 a{ text-decoration: none !important; }
 
@@ -35,16 +35,15 @@ nav a{
   font-weight: bolder;
 }
 
-nav a:hover,
-nav a:active{
-  color: #2dbccb;
+nav a:hover{
+  color: #7FAEFF;
 }
 
 /*nav a:active{
   color: #7FAEFF;
 }*/
 
-.active { color: #2dbccb; }
+.active { color: #7FAEFF; }
 
 /* NAV ON SCROLL */
 .fixed{
