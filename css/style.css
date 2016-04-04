@@ -43,7 +43,7 @@ nav a:hover{
   color: #7FAEFF;
 }*/
 
-.active { color: #7FAEFF; }
+/*.active { color: #7FAEFF; }*/
 
 /* NAV ON SCROLL */
 .fixed{
@@ -73,6 +73,7 @@ nav a:hover{
 #myName h1{
   font-size: 5em;
   font-weight: bolder;
+  font-family: 'Chonburi', cursive;
   padding-top: 200px;
   color: #B073EC;
 }
