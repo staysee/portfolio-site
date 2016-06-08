@@ -61,7 +61,8 @@ nav a:hover{
 
 /* HOME STYLES */
 #home{
-  background-image: url('images/aurora.jpg');
+  /*background-image: url('images/aurora.jpg');*/
+  background-color: black;
   background-size: cover;
   height: 100vh;
 }
@@ -73,20 +74,25 @@ nav a:hover{
 #myName h1{
   font-size: 5em;
   font-weight: bolder;
-  font-family: 'Chonburi', cursive;
+  /*font-family: 'Chonburi', cursive;*/
+  /*font-family: 'Special Elite','Helvetica';*/
+  /*font-family: 'Neuton', serif;*/
+  font-family: 'Raleway', sans-serif;
   padding-top: 200px;
-  color: #B073EC;
+  color: #F8FFFE;
 }
 
 #myName p{
   font-size: 2.5em;
   font-weight: bold;
-  color: #7FAEFF;
+  /*font-family: 'Neuton', serif;*/
+  font-family: 'Raleway', sans-serif;
+  color: #BFA3CD;
 }
 
 #construction{
   padding: 50px;
-  color: white;
+  color: #FF97FB;
 }
 
 
