@@ -14,50 +14,108 @@
   <!-- Google Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Special+Elite|Slabo+27px|Chonburi' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Neuton|Raleway' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Codystar' rel='stylesheet' type='text/css'>
 
   <!-- Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
-  <link href="css/blink.css" rel="stylesheet">
-
-  <!-- Angular JS -->
-  <!--   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
-  <script src="js/app.js"></script> -->
 
   <!-- jQuery -->
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="js/main.js"></script>
 
+  <script src="js/main.js"></script>
   <!-- Smooth Scroll -->
   <script src="js/smoothscroll.js"></script>
 </head>
 <body>
 
 <!-- HOME PAGE -->
-<div class="section" id="home">
-<div class="home-container">
+<section id="home">
+<div class="container-fluid">
 
   <div id="myName">
     <h1>Stacey Sugiono</h1>
     <p>Full Stack Web Developer</p>
 
-    <div id="construction">
+<!--     <div id="construction">
       <h2> Site Under Construction. Check Back Soon!</h2>
-    </div>
+    </div> -->
   </div>
 
   <nav>
     <ul>
       <li><a href="#home" id="nav-home" class="smoothScroll">Home</a></li>
+      <li><a href="#portfolio" id="nav-portfolio" class="smoothScroll">Portfolio</a></li>
       <li><a href="#bio" id="nav-bio" class="smoothScroll">Bio</a></li>
-      <li><a href="#work" id="nav-work" class="smoothScroll">Work</a></li>
       <li><a href="#contact" id="nav-contact" class="smoothScroll">Contact</a></li>
     </ul>
   </nav>
 </div>
-</div>
+</section>
+
+
+<!-- WORK -->
+<section id="portfolio">
+  <a name="work"></a>
+
+  <div class="container portfolio-container">
+  <div class="row">
+    <!-- NANOPOST -->
+    <div id="nanopost" class="view projects col-md-6">
+      <h3>NanoPost</h3>
+      <a href="http://nano.post.s3-website-us-west-2.amazonaws.com" target="_blank"><img class="project-image" src="css/images/NanoPost.png"></a>
+      <p class="project-link"><a href="http://nano.post.s3-website-us-west-2.amazonaws.com" target="_blank">Edit your life <i class="fa fa-sticky-note"></i></a></p>
+      <div class="col-md-8 col-md-offset-2">
+        <p>NanoPost is a place where developers/designers can help one another in their professional development and where employers can find their next talented hire!</p>
+        <p><strong>Technologies:</strong> MongoDB, Express, Angular, Node</p>
+      </div>
+    </div>
+
+    <!-- AFTER HOURS -->
+    <div id="afterhours" class="projects col-md-6">
+      <h3>AfterHours</h3>
+      <a href="https://after-hours-now.herokuapp.com" target="_blank"><img class="project-image" src="css/images/afterhours.png"></a>
+      <p class="project-link"><a href="https://after-hours-now.herokuapp.com" target="_blank">Find a Happy Hour <i class="fa fa-glass"></i></a></p>
+      <div class="col-md-8 col-md-offset-2">
+        <p>Find where the nearest happy hours are and how much time you have left!
+        After Hours is a happy hour tracking application based on current time and location.
+        <p><strong>Technologies:</strong> MongoDB, Express, Node, Yelp API, Google API, Facebook OAuth</p>
+      </div>
+    </div>
+  <!-- </div> -->
+
+  <div class="row">
+    <!-- FLOW FINDER -->
+    <div id="flowfinder" class="projects col-md-6">
+      <h3>Flow Finder</h3>
+      <a href="https://flow-finder.herokuapp.com" target="_blank"><img class="project-image" src="css/images/flowfinder.png"></a>
+      <p class="project-link"><a href="https://flow-finder.herokuapp.com" target="_blank">Groove with the Flow <i class="fa fa-moon-o"></i></a></p>
+
+      <div class="col-md-8 col-md-offset-2">
+        <p>Flow Finder was built to create a space where flow artists can search for workshops, classes, jams, or festivals happening in their area.</p>
+        <p><strong>Technologies:</strong> Ruby on Rails, jQuery</p>
+      </div>
+    </div>
+
+    <!-- BATTLESHIP -->
+    <div id="battleship" class="projects col-md-6">
+      <h3>Battleship</h3>
+      <a href="http://staysee.github.io/project-1" target="_blank"><img class="project-image" src="css/images/battleship.png"></a>
+      <div>
+        <p class="project-link"><a href="http://staysee.github.io/project-1" target="_blank">Prepare your ships! <i class="fa fa-ship"></i></a></p>
+        <div class="col-md-8 col-md-offset-2">
+          <p>Sink all of your enemy ships by guessing all 5 ship locations before your opponent sinks yours. This was my first project I ever built!</p>
+          <p><strong>Technologies:</strong> HTML, CSS, JavaScript, jQuery</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+</section>
 
 <!-- BIO -->
-<!-- <div class="section" id="bio"><a name="bio"></a>
+<section id="bio"><a name="bio"></a>
 <div class="bio-container">
 
   <div class="row">
@@ -73,72 +131,10 @@
     </div>
   </div>
 </div>
-</div> -->
-
-<!-- WORK -->
-<div class="section" id="work">
-  <a name="work"></a>
-
-  <!-- <div class="container work-container">
-  <div class="row"> -->
-    <!-- NANOPOST -->
-    <!-- <div id="nanopost" class="view projects col-md-6">
-      <h3>NanoPost</h3>
-      <a href="http://nano.post.s3-website-us-west-2.amazonaws.com" target="_blank"><img class="project-image" src="css/images/NanoPost.png"></a>
-      <p class="project-link"><a href="http://nano.post.s3-website-us-west-2.amazonaws.com" target="_blank">Edit your life <i class="fa fa-sticky-note"></i></a></p>
-      <div class="col-md-8 col-md-offset-2">
-        <p>NanoPost is a place where developers/designers can help one another in their professional development and where employers can find their next talented hire!</p>
-        <p><strong>Technologies:</strong> MongoDB, Express, Angular, Node</p>
-      </div>
-    </div> -->
-
-    <!-- AFTER HOURS -->
-    <!-- <div id="afterhours" class="projects col-md-6">
-      <h3>AfterHours</h3>
-      <a href="https://after-hours-now.herokuapp.com" target="_blank"><img class="project-image" src="css/images/afterhours.png"></a>
-      <p class="project-link"><a href="https://after-hours-now.herokuapp.com" target="_blank">Find a Happy Hour <i class="fa fa-glass"></i></a></p>
-      <div class="col-md-8 col-md-offset-2">
-        <p>Find where the nearest happy hours are and how much time you have left!
-        After Hours is a happy hour tracking application based on current time and location.
-        <p><strong>Technologies:</strong> MongoDB, Express, Node, Yelp API, Google API, Facebook OAuth</p>
-      </div>
-    </div> -->
-  <!-- </div> -->
-
-  <!-- <div class="row"> -->
-    <!-- FLOW FINDER -->
-    <!-- <div id="flowfinder" class="projects col-md-6">
-      <h3>Flow Finder</h3>
-      <a href="https://flow-finder.herokuapp.com" target="_blank"><img class="project-image" src="css/images/flowfinder.png"></a>
-      <p class="project-link"><a href="https://flow-finder.herokuapp.com" target="_blank">Groove with the Flow <i class="fa fa-moon-o"></i></a></p>
-
-      <div class="col-md-8 col-md-offset-2">
-        <p>Flow Finder was built to create a space where flow artists can search for workshops, classes, jams, or festivals happening in their area.</p>
-        <p><strong>Technologies:</strong> Ruby on Rails, jQuery</p>
-      </div>
-    </div> -->
-
-    <!-- BATTLESHIP -->
-   <!--  <div id="battleship" class="projects col-md-6">
-      <h3>Battleship</h3>
-      <a href="http://staysee.github.io/project-1" target="_blank"><img class="project-image" src="css/images/battleship.png"></a>
-      <div>
-        <p class="project-link"><a href="http://staysee.github.io/project-1" target="_blank">Prepare your ships! <i class="fa fa-ship"></i></a></p>
-        <div class="col-md-8 col-md-offset-2">
-          <p>Sink all of your enemy ships by guessing all 5 ship locations before your opponent sinks yours. This was my first project I ever built!</p>
-          <p><strong>Technologies:</strong> HTML, CSS, JavaScript, jQuery</p>
-        </div>
-      </div>
-    </div> -->
-
-  <!-- </div> -->
-  <!-- </div> -->
-
-<!-- </div> -->
-
+</section>
 
 <!-- CONTACT -->
-<!-- <div class="section" id="contact">
+<section id="contact">
   <a name="contact"></a>
   Need a developer? Contact Me!
   <div class="contact-links">
@@ -146,7 +142,7 @@
     <a href="https://www.linkedin.com/in/staceysugiono"><i class="fa fa-linkedin-square fa-3x"></i></a>
     <a href="https://github.com/staysee"><i class="fa fa-github-square fa-3x"></i></a>
   </div>
-</div> -->
+</section>
 
 
 
