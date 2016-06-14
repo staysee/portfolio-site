@@ -7,10 +7,10 @@ font-family: 'Codystar', cursive;
 font-family: 'Slabo 27px', serif;
 */
 
-/*{
+*{
   margin: 0;
   padding: 0;
-}*/
+}
 
 a{text-decoration: none !important}
 
@@ -19,40 +19,6 @@ body{
   color: white;
   font-family: 'Raleway', sans-serif;
 }
-
-
-/* NAVIGATION */
-nav{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  margin-left: -15px;
-}
-nav li{
-  display: inline-block;
-  padding: 15px 10px;
-}
-nav a{
-  color: white;
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: bolder;
-  font-family: 'Codystar', cursive;
-}
-nav a:hover{ color: #FF395D; }
-nav a:visited{ color: white; }
-
-
-/* NAV ON SCROLL */
-.fixed{
-  position: fixed;
-  background-color: #522740;
-  top: 0;
-  height: 50px;
-  z-index: 1;
-}
-.fixed a{ color: white; }
 
 
 /* HOME */
@@ -81,9 +47,40 @@ nav a:visited{ color: white; }
 
 #construction{
   padding: 50px;
-  color: #FF97FB;
+  color: #E45A86;
 }
 
+
+/* NAVIGATION */
+nav{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+nav li{
+  display: inline-block;
+  padding: 15px 10px;
+}
+nav a{
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Codystar', cursive;
+}
+nav a:hover{ color: #FF395D; }
+nav a:focus{ color: white; }
+
+/* NAV ON SCROLL */
+.fixed{
+  position: fixed;
+  background-color: #522740;
+  top: 0;
+  height: 50px;
+  z-index: 1;
+}
+.fixed a:hover{ color: #FF395D; }
 
 /* PORTFOLIO STYLES*/
 #portfolio{
@@ -142,26 +139,22 @@ nav a:visited{ color: white; }
   padding: 100px 0px;
 }
 
-#headshot{
-  width: 180px;
-  border-radius: 20px;
-  border: 4px solid white;
-}
-
-/*.headshot{
-  text-align: right;
-}*/
-
-.bio h3{
+#bio h2{
+  font-family: 'Slabo 27px', serif;
   color: #784498;
 }
-.bio p{
-  font-family: 'Slabo 27px', serif;
+#bio p{
+  font-family: 'Raleway', sans-serif;
   text-align: justify;
   font-size: 16px;
 }
 
 /* CONTACT STYLES */
+#headshot{
+  width: 180px;
+  border-radius: 20px;
+  border: 4px solid white;
+}
 
 #contact{
   background-color: #522740;
@@ -177,7 +170,7 @@ nav a:visited{ color: white; }
 }
 
 .contact-links a:hover{
-  color: #7775E2;
+  color: #FF395D;
 }
 
 
