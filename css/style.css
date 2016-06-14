@@ -140,8 +140,11 @@ nav a:focus{ color: white; }
 }
 
 #bio h2{
+  text-align: left;
+  font-size: 40px;
   font-family: 'Slabo 27px', serif;
-  color: #784498;
+  color: #B98E92;
+  margin: -35px 0px 45px 60px;
 }
 #bio p{
   font-family: 'Raleway', sans-serif;
