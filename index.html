@@ -19,8 +19,10 @@
   <!-- Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- jQuery -->
+  <!-- jQuery library-->
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
   <script src="js/main.js"></script>
   <!-- Smooth Scroll -->
@@ -119,16 +121,20 @@
 <div class="container bio-container">
 <h2>A Little About Me...</h2>
   <div class="row">
-    <div class="col-sm-4"> <!--bio section 1-->
+    <div class="col-sm-3"> <!--bio section 1-->
+      <img src="css/images/headshot.jpg" id="headshot">
+    </div>
+
+    <div class="col-sm-3"> <!--bio section 2-->
       <h5>Background</h5>
       <p>I am a fullstack developer based in Los Angeles, CA. I have a Bachelors degree in Cognitive Science from UC San Diego. Prior to Web Development, I was studying Speech-Language Pathology. Building and creating things has always been a passion of mine so being able to code to create stuff is awesome!</p>
     </div>
 
-    <div class="col-sm-4"> <!--bio section 2-->
+    <div class="col-sm-3"> <!--bio section 3-->
       <h5>Education</h5>
     </div>
 
-    <div class="col-sm-4"> <!--bio section 3-->
+    <div class="col-sm-3"> <!--bio section 4-->
       <h5>Fun Facts</h5>
     </div>
 
@@ -140,13 +146,19 @@
 <section id="contact"><a name="contact"></a>
 
 <div class="row">
-  <div class="col-sm-4">
-    <img src="css/images/headshot.jpg" id="headshot">
+  <div class="col-sm-4" id="left-info">
+    <p><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i> Los Angeles, CA</p>
+    <p><i class="fa fa-globe fa-2x" aria-hidden="true"></i> Seeking full-time opportunities!</p>
+    <p><i class="fa fa-plane fa-2x" aria-hidden="true"></i></i> Willing to relocate</p>
   </div>
 
-  <div class="col-sm-4">
-    <p>Hi! My name is Stacey.</p>
-    <p>Need a developer? Contact Me!</p>
+  <div class="col-sm-4" id="copyright">
+    <h6>&copy;Stacey Sugiono 2016 <i class="fa fa-heart" aria-hidden="true"></i></h6>
+  </div>
+
+  <div class="col-sm-4" id="right-info">
+    <p><strong>Need a developer?</strong></p>
+    <p>Contact me@staceysugiono.com</p>
     <div class="contact-links">
       <a href="mailto:me@staceysugiono.com"><i class="fa fa-envelope fa-3x"></i></a>
       <a href="https://www.linkedin.com/in/staceysugiono"><i class="fa fa-linkedin-square fa-3x"></i></a>
@@ -154,16 +166,12 @@
     </div>
   </div>
 
-  <div class="col-sm-4">
-    <h5>Copyright StaceySugiono2016</h5>
-  </div>
-</div>
+
+</div> <!--end row-->
 
 </section>
 
 
 
-<!-- Bootstrap jQuery-->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
