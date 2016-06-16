@@ -12,7 +12,7 @@ font-family: 'Slabo 27px', serif;
   padding: 0;
 }
 
-a{text-decoration: none !important}
+a{text-decoration: none !important;}
 
 body{
   text-align: center;
@@ -142,19 +142,24 @@ nav a:focus{ color: white; }
   text-align: left;
   font-size: 40px;
   font-family: 'Slabo 27px', serif;
-  color: #E6A3BF;
+  /*color: #E6A3BF;*/
+  color: #A51C55;
   margin: -35px 0px 45px 60px;
 }
 #bio h3{
-  color: #E288DF;
+  /*color: #E288DF;*/
+  color: white;
+  font-family: 'Codystar', cursive;
+  margin-bottom: 20px;
 }
 #bio h4{
   text-align: left;
 /*  color: #E288DF;*/
-  color: #EF537E;
+/*color: #EF537E;*/
+color: #A51C55;
 }
 #bio h5{
-  color: #53EFA0;
+  color: #D46967;
   /*color: #EF537E;*/
   text-align: left;
   margin: 0 auto;
@@ -166,7 +171,8 @@ nav a:focus{ color: white; }
 }
 #bio p{
   font-family: 'Raleway', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
+  color: #968180;
 }
 
 #bio-intro{
