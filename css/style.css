@@ -36,7 +36,6 @@ body{
   color: #F2FFFF;
   text-shadow: 1px 1px 1px rgba(255,255,255,0.8)
 }
-
 #myName p{
   font-size: 2.5em;
   font-weight: bolder;
@@ -65,7 +64,7 @@ nav li{
 nav a{
   color: white;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bolder;
   font-family: 'Codystar', cursive;
 }
@@ -98,22 +97,18 @@ nav a:focus{ color: white; }
 .projects{
   padding: 10px;
 }
-
 .projects h3{
   padding: 10px;
 }
 .projects a{
   color: white;
   text-transform: uppercase;
-
 }
-
 .projects p{
   font-family: 'Slabo 27px', serif;
   text-align: justify;
   font-size: 16px;
 }
-
 .projects a:hover{
   color: #7775E2;
 }
@@ -122,7 +117,6 @@ nav a:focus{ color: white; }
   width: 320px;
   height: 200px;
 }
-
 .project-image:hover{
   width: 480px;
   height: 300px;
@@ -135,6 +129,11 @@ nav a:focus{ color: white; }
 }
 
 /* BIO styles*/
+#blurb{
+  width: 75%;
+  margin-left: 15%;
+}
+
 #bio{
   background-color: black;
   padding: 100px 0px;
@@ -143,20 +142,58 @@ nav a:focus{ color: white; }
   text-align: left;
   font-size: 40px;
   font-family: 'Slabo 27px', serif;
-  color: #B98E92;
+  color: #E6A3BF;
   margin: -35px 0px 45px 60px;
+}
+#bio h3{
+  color: #E288DF;
+}
+#bio h4{
+  text-align: left;
+/*  color: #E288DF;*/
+  color: #EF537E;
+}
+#bio h5{
+  color: #53EFA0;
+  /*color: #EF537E;*/
+  text-align: left;
+  margin: 0 auto;
+}
+#bio li{
+  list-style: none;
+  text-align: left;
+  padding-bottom: 5px;
 }
 #bio p{
   font-family: 'Raleway', sans-serif;
-  text-align: justify;
-  font-size: 16px;
+  font-size: 12px;
 }
+
+#bio-intro{
+  text-align: center !important;
+  padding-bottom: 15px;
+}
+
 #headshot{
   width: 130px;
   border-radius: 20px;
   border: 4px solid white;
 }
 
+.bio-2{
+  padding: 5px;
+  margin-left: 2%;
+}
+.school{
+  /*color: #EF537E;*/
+  font-size: 14px;
+}
+.bio-3{
+  margin-left: 3.33%;
+}
+.bio-3 p{
+  margin-bottom: 2px;
+}
 
 /* CONTACT styles */
 #contact{
@@ -164,7 +201,7 @@ nav a:focus{ color: white; }
   background-size: cover;
   color: white;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 2px;
 }
 
 .contact-links a{
@@ -175,23 +212,31 @@ nav a:focus{ color: white; }
   color: #FF395D;
 }
 
-#left-info{
-  text-align: left;
-  padding-left: 65px;
-}
-
-#right-info{
-  text-align: right;
-  padding-right: 65px;
-}
-
-#copyright{
-  padding-top: 40px;
-}
-
 #copyright h6{
   font-size: 8px;
 }
 
 
+/*MEDIA QUERIES*/
+@media (max-width: 768px) {
+  nav a{
+    font-size: 15px;
+  }
+  #bio h2{
+    font-size: 35px;
+  }
+  .bio-1, .bio-2, .bio-3{
+    margin-left: 4.33%;
+  }
+  .bio-2, .bio-3{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .bio-2, .bio-3{
+    width: 90%;
+  }
+  .bio-3 li{
+    text-align:center;
+  }
 
+}
