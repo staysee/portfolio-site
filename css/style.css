@@ -46,7 +46,9 @@ body{
 
 #construction{
   padding: 50px;
-  color: #E45A86;
+  color: #CE3768;
+  font-family: 'Slabo 27px', serif;
+  font-size: 30px;
 }
 
 
@@ -227,6 +229,9 @@ color: #A51C55;
 
 /*MEDIA QUERIES*/
 @media (max-width: 768px) {
+  #construction{
+    font-size: 18px;
+  }
   nav a{
     font-size: 15px;
   }
