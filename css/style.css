@@ -99,6 +99,8 @@ nav a:focus{ color: white; }
 }
 .projects h3{
   padding: 10px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 30px;
 }
 .projects a{
   color: white;
