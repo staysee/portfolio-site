@@ -56,7 +56,7 @@ $(document).ready(function($){
 
 	var sklSlider = $("#skillSlider");
 
-	
+
 	// sklSlider.owlCarousel({
 	// 	slideSpeed: 400,
 	// 	items : 6,
@@ -142,59 +142,6 @@ $(document).ready(function($){
 			edData.prev();
 		} else {
 			edData.next();
-		}
-	});
-
-
-	var tmSlider = $("#teamSlider");
-	tmSlider.owlCarousel({
-		slideSpeed : 600,
-		items : 3,
-		itemsDesktop : [1000,3],
-		itemsDesktopSmall : [900,3],
-		itemsTablet: [800,2],
-		itemsMobile : [500, 1],
-		pagination : false
-	});
-	var tmData = tmSlider.data('owlCarousel');
-
-
-	var tmTgt = $('.tmu-ctrl').find('.go');
-	tmTgt.on('click', function(e){
-		e.preventDefault();
-
-		if ($(this).hasClass('go-left')){
-			tmData.prev();
-		} else {
-			tmData.next();
-		}
-	});
-
-
-	var tesMoSlider = $("#testimonialSlider");
-		tesMoSlider.owlCarousel({
-		slideSpeed : 600,
-		items : 2,
-		itemsDesktop : [1000,2],
-		itemsDesktopSmall : [900,2],
-		itemsTablet: [600,1],
-		itemsMobile : false,
-		pagination : false
-	});
-
-	var tmoData = tesMoSlider.data('owlCarousel');
-
-
-	var tmoTgt = $('.tmo-ctrl').find('.go');
-
-
-	tmoTgt.on('click', function(e){
-		e.preventDefault();
-
-		if($(this).hasClass('go-left')){
-			tmoData.prev();
-		} else {
-			tmoData.next();
 		}
 	});
 
@@ -369,7 +316,7 @@ $(document).ready(function($){
 		function getActiveSectionLength(section, sections) {
 			return sections.index(section);
 		}
-		
+
 		if ( sections.length > 0 ) {
 
 
@@ -546,8 +493,8 @@ $(document).ready(function($){
 	if ( $mapWrapper.length > 0 ) {
 		var map = new GMaps({
 			div: '#map',
-			lat : 23.79473005386213,
-			lng : 90.41430473327637,
+			lat : 34.052235,
+			lng : -118.243683,
 			scrollwheel: false,
 			draggable: draggableOp,
 			zoom: 16,
@@ -556,11 +503,11 @@ $(document).ready(function($){
 		});
 
 		map.addMarker({
-			lat : 23.79473005386213,
-			lng : 90.41430473327637,
+			lat : 34.052235,
+			lng : -118.243683,
 			icon: 'images/marker-icon.png',
 			infoWindow: {
-				content: '<p>BD InfoSys Ltd, Dhaka, Bangladesh</p>'
+				content: '<p>Los Angeles, CA</p>'
 			}
 		});
 	}
@@ -570,7 +517,7 @@ $(document).ready(function($){
 
 
 $(window).load(function(){
-	
+
 	// section calling
 	$('.section-call-to-btn.call-to-home').waypoint({
 		handler: function(event, direction) {
@@ -584,7 +531,7 @@ $(window).load(function(){
 		offset: '90%'
 	});
 
-	
+
 	$('.section-call-to-btn.call-to-about').delay(1000).fadeIn(0, function(){
 		var $this = $(this);
 		$this.removeClass('btn-hidden');
@@ -653,7 +600,7 @@ $(window).load(function(){
 			portTitle = portfolioModal.find('.modal-content .title'),
 			portContent = portfolioModal.find('.modal-content .m-content'),
 			portLink = portfolioModal.find('.modal-footer .modal-action');
-		
+
 		$('#protfolio-msnry').delegate('a.modal-trigger', 'click', function(e){
 			e.preventDefault();
 			var $this = $(this);
