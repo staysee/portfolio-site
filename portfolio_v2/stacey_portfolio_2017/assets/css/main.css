@@ -1406,6 +1406,10 @@ span.num {
     max-width: inherit;
 }
 
+#cali {
+max-width: 300px;
+}
+
 .contact-info {
     display: block;
     padding: 8px 0;
