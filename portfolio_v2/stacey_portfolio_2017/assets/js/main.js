@@ -493,18 +493,18 @@ $(document).ready(function($){
 	if ( $mapWrapper.length > 0 ) {
 		var map = new GMaps({
 			div: '#map',
-			lat : 34.052235,
-			lng : -118.243683,
+			lat : 34.052235,   // LA latitude
+			lng : -118.243683, // LA longitude
 			scrollwheel: false,
 			draggable: draggableOp,
-			zoom: 16,
+			zoom: 10,
 			disableDefaultUI: true,
 			styles : mapStyle
 		});
 
 		map.addMarker({
-			lat : 34.052235,
-			lng : -118.243683,
+			lat : 34.052235,   // LA latitude
+			lng : -118.243683, // LA longitude
 			icon: 'images/marker-icon.png',
 			infoWindow: {
 				content: '<p>Los Angeles, CA</p>'
